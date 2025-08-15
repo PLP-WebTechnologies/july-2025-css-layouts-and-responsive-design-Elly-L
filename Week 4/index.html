@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Web Layouts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">LayoutDesign</div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Responsive Web Design</h1>
+            <p>Mastering Flexbox and CSS Grid layouts</p>
+            <button class="btn">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="main container">
+        <!-- Featured Articles (Grid Layout) -->
+        <section class="featured">
+            <h2>Featured Articles</h2>
+            <div class="articles-grid">
+                <article class="article-card">
+                    <img src="https://via.placeholder.com/400x250?text=Flexbox" alt="Flexbox">
+                    <h3>Flexbox Fundamentals</h3>
+                    <p>Learn how to create flexible layouts with CSS Flexbox.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+                <article class="article-card">
+                    <img src="https://via.placeholder.com/400x250?text=CSS+Grid" alt="CSS Grid">
+                    <h3>CSS Grid Systems</h3>
+                    <p>Master two-dimensional layouts with CSS Grid.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+                <article class="article-card">
+                    <img src="https://via.placeholder.com/400x250?text=Responsive" alt="Responsive Design">
+                    <h3>Responsive Techniques</h3>
+                    <p>Essential strategies for responsive web design.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Content with Sidebar (Flexbox Layout) -->
+        <section class="content-area">
+            <div class="content-main">
+                <h2>Layout Techniques</h2>
+                <p>Modern CSS provides powerful layout tools like Flexbox and CSS Grid that make it easier to create complex, responsive designs without relying on frameworks.</p>
+                
+                <div class="technique-cards">
+                    <div class="technique">
+                        <i class="fas fa-boxes"></i>
+                        <h3>Flexbox</h3>
+                        <p>One-dimensional layout model for spacing and aligning items in a container.</p>
+                    </div>
+                    <div class="technique">
+                        <i class="fas fa-th"></i>
+                        <h3>CSS Grid</h3>
+                        <p>Two-dimensional system for creating grid-based layouts.</p>
+                    </div>
+                    <div class="technique">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Responsive</h3>
+                        <p>Designs that adapt to different screen sizes and devices.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <aside class="sidebar">
+                <h3>Quick Links</h3>
+                <ul class="sidebar-links">
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Flexbox Documentation</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Grid Examples</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Media Queries</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Viewport Units</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Responsive Images</a></li>
+                </ul>
+                
+                <div class="newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Stay updated with the latest layout techniques.</p>
+                    <form>
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>LayoutDesign</h4>
+                    <p>Teaching modern CSS layout techniques since 2023.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Examples</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 LayoutDesign. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
